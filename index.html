@@ -1,4 +1,4 @@
-<!-- Ported by Martin_MMC -->
+<!-- Ported by Martin_MMC :D -->
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -31,16 +31,16 @@
     <div id="unity-container" style="display: none;">
         <canvas id="unity-canvas"></canvas>
     </div>
-    <div id="loadingBlock" style="">
+    <div id="loadingBlock">
         <div class="jss31 jss34 jss1">
             <div class="spinner"></div>
+
             <div class="jss31 jss34 jss48" style="flex: 1 1 0%;">
                 <div class="jss32">
                     <div class="jss7 jss9 jss20 jss3">
                         <div class="jss125">
-                            <div class="jss123">
-                                <img src="logo.png">
-                            </div>
+                            <div class="jss123"></div>
+                            <img id="game-logo" src="logo.png" />
                         </div>
                     </div>
                 </div>
@@ -52,18 +52,14 @@
                         <div class="jss32">
                             <div class="gameloader-game-name">Geometry World</div>
                         </div>
-                        <div class="jss32">
-                            <div class="jss32 gameloader-logo">
-                                <img id="game-logo" src="loading.png">
-                            </div>
+                        <div class="jss32 gameloader-logo">
+                            <img src="loading.png" />
                         </div>
                         <div class="jss32">
-                            <div>
-                                <div class="gameloader-progressbar">
-                                    <div class="gameloader-progressbar-progress" id="progress_fill" style="width: 10%;"></div>
-                                </div>
-                                <div class="gameloader-progress-info">Loading Game...</div>
+                            <div class="gameloader-progressbar">
+                                <div class="gameloader-progressbar-progress" id="progress_fill" style="width: 0%;"></div>
                             </div>
+                            <div class="gameloader-progress-info">Loading Game...</div>
                         </div>
                     </div>
                 </div>
